@@ -1,0 +1,48 @@
+@import 'grid';  
+body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+$white:#FFFFFF;
+$grey:#636A75;
+$color:#16133E;
+$btn: #F53B30;
+$footer:#8B8F95;
+
+.container{
+    max-width: 1260px
+}
+
+@font-face {
+    font-family: 'b-b';
+    src: url(../fonts/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family: 'b-r';
+    src: url(../fonts/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family: 'm-b';
+    src: url(../fonts/Merriweather-Bold.ttf);
+}
+@font-face {
+    font-family: 'm-r';
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+
+
+@import 'blocks/head';
+@import 'blocks/neck';
+@import 'blocks/middle';
+@import 'blocks/service';
+@import 'blocks/choice';
+@import 'blocks/footer';
+@import 'blocks/media';
+

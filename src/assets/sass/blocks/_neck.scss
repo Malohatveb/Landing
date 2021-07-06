@@ -1,0 +1,56 @@
+.neck{
+    overflow: hidden;
+    position: relative;
+    &::before{
+        content: '';
+        display: block;
+        position: absolute;
+        height: 350px;
+        width: 100%;
+        top: 0;
+        z-index: -1;
+        background-color: $color;
+    }
+    .bigtitle{
+        text-align: center;
+        padding-top: 125px;
+        color: $white;
+        font-size: 48px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    .row {
+        row-gap: 30px;
+    }
+
+    .menu{
+        padding-top: 240px;
+
+        .box {
+            height: 100%;
+            background-color: $white;
+            box-shadow: 0px 15px 24px rgba(64, 90, 128, 0.05);
+            margin-bottom: 40px;
+        }
+        
+        img{
+            padding: 30px 0px 0px 30px;
+        }
+
+        .title{
+            padding-top: 32px;
+            padding-left: 40px;
+            font-size: 20px;
+            font-family: 'm-b';
+            color: $color;
+        }
+
+        p{
+            padding: 24px 40px;
+            color: $grey;
+            font-family: 'b-r';
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.footer{
+    margin-bottom: 30px;
+    overflow: hidden;
+    
+    .container{
+        margin: auto;
+        
+        .bar{
+            display: flex;
+            justify-content: space-between;
+            .left{
+
+                .ul{
+                    display: flex;
+                    li{
+                        list-style-type: none;
+                        padding-top: 46px;
+                        padding-right: 31px;
+                        a{
+                            text-decoration: none;
+                            font-family: 'b-r';
+                            color: $footer;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            
+            .right{
+                text-decoration: none;
+                font-family: 'b-r';
+                color: $footer;
+                font-size: 16px;
+                padding-top: 46px;
+                margin-left: 90px;
+            }
+            
+        }
+    }
+}

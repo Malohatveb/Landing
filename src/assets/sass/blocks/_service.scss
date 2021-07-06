@@ -1,0 +1,41 @@
+.service{
+    background-color: $color;
+    height: 793px;
+    margin-top: 100px;
+    overflow: hidden;
+    
+    .menu{
+        text-align: center;
+        
+        h1{
+            padding-top: 145px;
+            font-size: 36px;
+            color: $white;
+            font-family: 'm-b';
+        }
+        
+        .btn{
+            
+            button{
+                color: $white;
+                background-color: $btn;
+                border: 0;
+                width: 171px;
+                height: 50px;
+                border-radius: 50px;
+                margin-top: 49px;
+            }            
+        }
+        
+        .bar{
+            margin-top: 97px;
+            margin-left: 27px;
+            .link{
+                img{
+                    padding: 20px;
+                }
+            }
+        }
+        
+    }
+}

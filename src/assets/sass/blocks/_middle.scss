@@ -1,0 +1,57 @@
+.middle{
+    margin-top: 124px;
+    overflow: hidden;
+    .container{
+        max-width: 1040px;
+        margin: auto;
+
+        .bigtitle{
+            color: $color;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 69px;
+            font-family: 'm-b';
+        }
+
+        .blog{
+            .menu1{
+                .row{
+                    display: flex;
+                    margin-top: 60px;
+
+                    .content{
+                        background-color:$white;
+                        padding: 64px 85px;
+                        box-shadow: 0px 15px 24px rgba(64, 90, 128, 0.05);
+                        margin: 30px -20px -20px;
+                    }
+
+                    .top{
+                        display: flex;
+                        
+                        .title{
+                            font-family: 'm-b';
+                            font-size: 20px;
+                            color: $color;
+                            padding: 17px;
+                        }
+
+                        .num{
+                            font-family: 'm-b';
+                            font-size: 37px;
+                            color: $color;
+                        }
+
+                    }
+
+                    .body{
+                        font-family: 'b-r';
+                        color: $grey;
+                        font-size: 16px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
